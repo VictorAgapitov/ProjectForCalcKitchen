@@ -1,0 +1,8 @@
+C:\Users\Виктор\source\repos\ConsoleApp2\ConsoleApp2\bin\Release\ConsoleApp2.exe.config
+C:\Users\Виктор\source\repos\ConsoleApp2\ConsoleApp2\bin\Release\ConsoleApp2.exe
+C:\Users\Виктор\source\repos\ConsoleApp2\ConsoleApp2\bin\Release\ConsoleApp2.pdb
+C:\Users\Виктор\source\repos\ConsoleApp2\ConsoleApp2\obj\Release\Calc.csproj.AssemblyReference.cache
+C:\Users\Виктор\source\repos\ConsoleApp2\ConsoleApp2\obj\Release\Calc.csproj.SuggestedBindingRedirects.cache
+C:\Users\Виктор\source\repos\ConsoleApp2\ConsoleApp2\obj\Release\Calc.csproj.CoreCompileInputs.cache
+C:\Users\Виктор\source\repos\ConsoleApp2\ConsoleApp2\obj\Release\ConsoleApp2.exe
+C:\Users\Виктор\source\repos\ConsoleApp2\ConsoleApp2\obj\Release\ConsoleApp2.pdb
