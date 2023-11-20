@@ -14,31 +14,31 @@ namespace ConsoleApp2
        public int depth;           //глубина модуля
        public int plinth;          //цоколь(высота)
        public int width;           //ширина
-       public object[,] arrey = new object[5, 4]; //массив для вывода деталей
+       public object[,] array = new object[5, 4]; //массив для вывода деталей
         public object[,] calculation()   
         {
          
-            arrey[0, 0] = width;
-            arrey[0, 1] = depth;
-            arrey[0, 2] = 1;
-            arrey[0, 3] = "-шт. Дно";
-            arrey[1, 0] = height - plinth - 16;
-            arrey[1, 1] = depth;
-            arrey[1, 2] = 2;
-            arrey[1, 3] = "-шт. Стоевые";
-            arrey[2, 0] = width - 32;
-            arrey[2, 1] = 80;
-            arrey[2, 2] = 2;
-            arrey[2, 3] = "-шт. Связь";
-            arrey[3, 0] = height - plinth - 4;
-            arrey[3, 1] = width - 4;
-            arrey[3, 2] = 1;
-            arrey[3, 3] = "-шт. ДВП";
-            arrey[4, 0] = height - plinth - 3;
-            arrey[4, 1] = width - 3;
-            arrey[4, 2] = 1;
-            arrey[4, 3] = "-шт. Фасад";
-            return arrey;
+            array[0, 0] = width;
+            array[0, 1] = depth;
+            array[0, 2] = 1;
+            array[0, 3] = "-шт. Дно";
+            array[1, 0] = height - plinth - 16;
+            array[1, 1] = depth;
+            array[1, 2] = 2;
+            array[1, 3] = "-шт. Стоевые";
+            array[2, 0] = width - 32;
+            array[2, 1] = 80;
+            array[2, 2] = 2;
+            array[2, 3] = "-шт. Связь";
+            array[3, 0] = height - plinth - 4;
+            array[3, 1] = width - 4;
+            array[3, 2] = 1;
+            array[3, 3] = "-шт. ДВП";
+            array[4, 0] = height - plinth - 3;
+            array[4, 1] = width - 3;
+            array[4, 2] = 1;
+            array[4, 3] = "-шт. Фасад";
+            return array;
 
         }      
     }
