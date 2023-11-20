@@ -43,6 +43,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="HoodModul.cs" />
+    <Compile Include="HorizontalDoorsTop.cs" />
+    <Compile Include="SingleDoorModul.cs" />
+    <Compile Include="SingleDoorTop.cs" />
+    <Compile Include="ThreeBoxModul.cs" />
+    <Compile Include="TwoBoxModul.cs" />
+    <Compile Include="TwoDoorModul.cs" />
+    <Compile Include="TwoDoorTop.cs" />
+    <Compile Include="СargoModul.cs" />
+    <Compile Include="OvenModul.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
