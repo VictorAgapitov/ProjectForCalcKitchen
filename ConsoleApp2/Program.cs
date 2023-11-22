@@ -21,7 +21,7 @@ namespace Calculate
             void AddToPrint(string InPutName, int InPutWidth, object[,] InPutMas)         // Метод записи данных в текстовый документ (дополняет файл без удаления информации)
             {
 
-                StreamWriter sw = new StreamWriter("D:\\Report.txt", true, Encoding.UTF8);
+               using StreamWriter sw = new StreamWriter("D:\\Report.txt", true, Encoding.UTF8);
                 sw.WriteLine(InPutName + " шириной " + InPutWidth + "(mm).\n");
                 for (int i = 0; i < InPutMas.GetLength(0); i++)
                 {
@@ -32,17 +32,16 @@ namespace Calculate
                     sw.Write("\n");
                 }
                 sw.Write('\n');
-
                 sw.Close();
-                sw.Dispose();
+              
             }
 
 
 
-            StreamWriter sw1 = new StreamWriter("D:\\Report.txt", false, Encoding.UTF8);    
-            sw1.Write(string.Empty);                                                        //очищает текстовый файл
+            using StreamWriter sw1 = new StreamWriter("D:\\Report.txt", false, Encoding.UTF8);    
+            sw1.Write(string.Empty);                                                        //очищает текстовый файл, закрывает поток
             sw1.Close();                                                                    
-            sw1.Dispose();
+           
             try
             {
 
@@ -403,11 +402,10 @@ namespace Calculate
 
             //Открытие результата вычислений в формате .txt
 
-            System.Diagnostics.Process txt = new System.Diagnostics.Process();
+            using  System.Diagnostics.Process txt = new System.Diagnostics.Process();
             txt.StartInfo.FileName = "notepad.exe";
             txt.StartInfo.Arguments = @"D:\Report.txt";
             txt.Start();
-            txt.Dispose();
             Environment.Exit(0);
 
         } 
